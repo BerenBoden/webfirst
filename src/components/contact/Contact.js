@@ -2,6 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.scss';
 import contactImg from '../../img/contact_img.png';
+import Footer from '../footer/Footer';
 
 export default function Contact() {
 
@@ -34,7 +35,7 @@ export default function Contact() {
             <div className="contact__options">
             <img src={contactImg} alt="contact me" />
                 <div className="contact__option">
-                    Email: beren.boden@gmail.com
+                    <a href="mailto:support@webfirst.co.nz">Email: support@webfirst.co.nz</a>
                 </div>
                 <div className="contact__option">
                     Phone: 64+ 212089217
@@ -66,6 +67,9 @@ export default function Contact() {
                 </div>
                 <button type="submit" value="Send">Send Email</button>
             </form>
+        </div>
+        <div className="footer">
+            <Footer />
         </div>
     </div>
     </>

@@ -39,11 +39,30 @@ $spanBlue: #008cd5;
         img {
             width: 500px;
             margin-left: 10px;
+            margin-top: 100px;
         }
         .contact__options {
             margin-bottom: 80%;
         }
         .contact__option {
+            a {
+                padding: 10px 0 5px 0;
+                color: #000;
+                font-size: 1.4rem;
+                display: inline-block;
+                text-decoration: none;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 0;
+                    height: 1px;
+                    background: #000;
+                    transition: width .3s;
+                }
+                &:hover::after{
+                    width: 100%;
+                }
+            }
             background: rgba(0,0,0,0.1);
             margin: 15px 0;
             border-radius: 3px;
@@ -111,8 +130,12 @@ $spanBlue: #008cd5;
                 resize: none;
                 transition: 0.3s ease;
                 &:focus{
-                    outline: 1px solid orange;
-                    border-radius: 3px;
+                -webkit-transition: 0.3s ease;
+                -moz-transition: 0.3s ease;
+                -ms-transition: 0.3s ease;
+                -o-transition: 0.3s ease;
+                outline: 1px solid orange;
+                border-radius: 3px;
                 }
                 }
             }
@@ -136,6 +159,12 @@ $spanBlue: #008cd5;
             }
         }
     }
+}
+.footer {
+    position: absolute;
+    z-index: -1;
+    margin-top: 100px;
+    background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1170px){
     .contact {

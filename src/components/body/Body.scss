@@ -23,9 +23,9 @@ $spanBlue: #008cd5;
     }
     h1 {
       text-transform: uppercase;
-      font-size: 4.5rem;
+      font-size: 4rem;
       span {
-        font-size: 4.5rem;
+        font-size: 4rem;
         color: $spanBlue;
       }
     }
@@ -42,8 +42,19 @@ $spanBlue: #008cd5;
     .body__showcaseLogos {
       padding: 0 5%;
       img {
-        width: 25%;
-        padding: 2% 0;
+        width: 100px;
+        height: 100px;
+        padding-bottom: 15px;
+      }
+      svg {
+        width: 100px;
+        height: 100px;
+        padding-bottom: 15px;
+      }
+      i {
+        color: $spanBlue;
+        font-size: 9rem;
+        padding-bottom: 15px;
       }
       h2 {
         font-size: 2rem;
