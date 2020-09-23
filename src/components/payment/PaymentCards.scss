@@ -1,0 +1,30 @@
+.paymentCards {
+  height: 600px;
+  width: 350px;
+  background: lavender;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+@media only screen and(max-width: 480px){
+  .paymentCards {
+    height: 550px;
+    width: 300px;
+  }
+}
+@media only screen and(max-width: 380px){
+  .paymentCards {
+    height: 500px;
+    width: 250px;
+  }
+}
+@media only screen and(max-width: 310px){
+  .paymentCards {
+    height: 460px;
+    width: 210px;
+  }
+}
+

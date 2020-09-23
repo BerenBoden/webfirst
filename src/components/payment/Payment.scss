@@ -1,0 +1,39 @@
+$spanBlue: #008cd5;
+.payment {
+      .body__logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 1rem;
+        color: #000;
+      }
+      i {
+        font-size: 27px;
+        padding: 0 5px;
+      }
+    }
+      h1 {
+      text-transform: uppercase;
+      font-size: 4.5rem;
+      position: relative;
+      z-index: 100;
+      text-align: center;
+      display: block;
+      padding: 70px 25% 20px 25%;
+      span {
+        font-size: 4.5rem;
+        color: $spanBlue;
+      }
+    }
+  .payment__cards {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    .payment__card {
+      padding: 20px;
+    }
+  }
+}
+
