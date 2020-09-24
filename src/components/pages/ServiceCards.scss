@@ -1,4 +1,4 @@
-$spanBlue: #008cd5;
+$spanBlue: rgb(0, 140, 213);
 .service__cards {
     display: flex;
     align-items: center;
@@ -6,6 +6,7 @@ $spanBlue: #008cd5;
     padding: 10px;
     .service__cardsInner{
         border-top: 4px solid $spanBlue;
+        box-shadow: 1px 1px 15px 1px rgba(0, 140, 213, 0.3);
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -20,6 +21,12 @@ $spanBlue: #008cd5;
         padding: 40px;
         svg{
             width: 80px;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size:1.6rem;
         }
     }
 }

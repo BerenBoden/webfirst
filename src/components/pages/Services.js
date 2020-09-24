@@ -3,6 +3,7 @@ import Navigation from "./Navigation";
 import "./Services.scss";
 import optimize from "../../img/optimized.png";
 import hancode from "../../img/hancode.png";
+import newimg from "../../img/newimg.png";
 import ServiceCards from './ServiceCards';
 
 const Services = (props) => {
@@ -10,6 +11,16 @@ const Services = (props) => {
     <div className="services">
       <Navigation/>
       <h1 className="services__header">{props.title}</h1>
+      <div className="body__heading2">
+            <h1>
+            What We <span>Provide</span>
+            </h1>
+            <div className="body__logo">
+            <p>-------</p>
+            <i className="fa fa-archive"></i>
+            <p>-------</p>
+            </div>
+        </div>
       <div className="services__body">
         <div className="services__bodyLeft">
           <h1>Extremely Fast & Optimized Websites</h1>
@@ -76,7 +87,7 @@ const Services = (props) => {
           </ul>
         </div>
         <div className="services__bodyRight">
-            <img src={hancode} alt="LOGO" />
+            <img src={newimg} alt="LOGO" />
         </div>
       </div>
       <div className="services__bodyChecks">

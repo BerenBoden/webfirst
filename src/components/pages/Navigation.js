@@ -11,6 +11,7 @@ const Div = styled.div`
     position: absolute;
     z-index: -1;
     height: 220px;
+    object-fit: cover;
   }
 `;
 
