@@ -1,52 +1,127 @@
-$spanBlue: #008cd5;
+$spanBlue: rgb(0, 140, 213);
 .payment {
-      .body__logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  button {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    background: #104fb8;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: 0.1s ease-in-out;
+    -webkit-transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    &:hover {
+      background-color: #02dcf7;
       p {
-        font-size: 1rem;
         color: #000;
       }
-      i {
-        font-size: 27px;
-        padding: 0 5px;
-      }
     }
-      h1 {
-      text-transform: uppercase;
+    p {
+      transition: 0.1s ease-in-out;
+      -webkit-transition: 0.1s ease-in-out;
+      -moz-transition: 0.1s ease-in-out;
+      -ms-transition: 0.1s ease-in-out;
+      -o-transition: 0.1s ease-in-out;
+      padding: 15px;
+      color: #fff;
+      font-size: 1.3rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+  .body__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 1rem;
+      color: #000;
+    }
+    i {
+      font-size: 27px;
+      padding: 0 5px;
+    }
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 70px 25% 20px 25%;
+    span {
       font-size: 4rem;
-      position: relative;
-      text-align: center;
-      display: block;
-      padding: 70px 25% 20px 25%;
-      span {
-        font-size: 4rem;
-        color: $spanBlue;
-      }
+      color: $spanBlue;
     }
+  }
   .payment__cards {
+    padding: 100px 0;
     display: flex;
     justify-content: center;
     align-items: left;
     flex-wrap: wrap;
+    .payment__card:nth-child(2) {
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+    }
     .payment__card {
-      padding: 20px;
+      padding: 20px 0;
     }
   }
 }
-
-@media only screen and(max-width: 615px){
-  .body__logo {
-    display: none!important;
+@media only screen and(max-width: 1127px) {
+  .payment__card {
+    width: 100%;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
   }
 }
-@media only screen and(max-width: 380px){
-  .payment{
-    h1 {
-      font-size: 2.5rem!important;
+@media only screen and (max-width: 1127px) {
+  .paymentCards__price {
+    margin: 0 !important;
+  }
+  .paymentCards__list {
+    h2 {
+      margin: 0 !important;
+    }
+    ul {
+      margin: 0 !important;
+    }
+  }
+  .payment__card:nth-child(2) {
+    box-shadow: none !important;
+    transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
+  }
+}
+
+@media only screen and(max-width: 615px) {
+  .body__logo {
+    display: none !important;
+  }
+}
+@media only screen and(max-width: 380px) {
+  .payment {
+    .payment__logo {
+      font-size: 2.5rem !important;
       span {
-        font-size: 2.5rem!important;
+        font-size: 2.5rem !important;
       }
     }
   }

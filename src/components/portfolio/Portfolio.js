@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "../cards/Cards";
 import "./Portfolio.scss";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -25,7 +25,10 @@ const Portfolio = () => {
           <Cards />
         </div>
       </div>
-      <Link style={{textAlign: 'center', textDecoration: 'none'}}to="/portfolio">
+      <Link
+        style={{ textAlign: "center", textDecoration: "none" }}
+        to="/portfolio"
+      >
         <p className="button">View More...</p>
       </Link>
     </div>

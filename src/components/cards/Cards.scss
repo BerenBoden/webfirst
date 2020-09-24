@@ -11,28 +11,28 @@ $spanBlue: #008cd5;
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
   border-bottom: 2px solid $spanBlue;
 }
-@media only screen and(max-width: 480px){
+@media only screen and(max-width: 480px) {
   .cards {
     height: 500px;
     width: 300px;
   }
 }
 
-@media only screen and(max-width: 380px){
+@media only screen and(max-width: 380px) {
   .cards {
     height: 500px;
     width: 250px;
   }
 }
 
-@media only screen and(max-width: 380px){
+@media only screen and(max-width: 380px) {
   .cards {
     height: 500px;
     width: 250px;
   }
 }
 
-@media only screen and(max-width: 310px){
+@media only screen and(max-width: 310px) {
   .cards {
     height: 460px;
     width: 210px;

@@ -2,8 +2,7 @@ import React from "react";
 import logo from "../../img/logo.png";
 import banner from "../../img/banner-bg.png";
 import "./Header.scss";
-import Burger from './Burger';
-
+import Burger from "./Burger";
 
 const Header = () => {
   return (

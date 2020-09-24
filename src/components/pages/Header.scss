@@ -22,28 +22,27 @@
     justify-content: space-between;
     padding: 0 17%;
     width: 100%;
-    @media only screen and(max-width: 1000)
-      {
-      nav{
+    @media only screen and(max-width: 1000) {
+      nav {
         .nav__left {
-          padding-right: 200px!important;
+          padding-right: 200px !important;
         }
       }
     }
-}
-}
-@media only screen and (max-width: 1080px){
-  .header {
-  nav{
-    padding: 0 13%;
   }
 }
-}
-@media only screen and(max-width: 500px){
+@media only screen and (max-width: 1080px) {
   .header {
-    nav{
+    nav {
+      padding: 0 13%;
+    }
+  }
+}
+@media only screen and(max-width: 500px) {
+  .header {
+    nav {
       justify-content: space-between;
-      padding: 0 5%!important;
+      padding: 0 5% !important;
     }
   }
 }

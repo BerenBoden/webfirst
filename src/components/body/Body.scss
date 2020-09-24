@@ -117,13 +117,13 @@ $spanBlue: #008cd5;
     padding: 12% 10% 5% 10% !important;
   }
 }
-@media only screen and(max-width: 1000px){
+@media only screen and(max-width: 1000px) {
   .body__priceDisplayLogo {
-    padding: 2% 1%!important;
-    width: 40%!important;
-    text-align: left!important;
-    justify-content: left!important;
-    align-items: left!important;
+    padding: 2% 1% !important;
+    width: 40% !important;
+    text-align: left !important;
+    justify-content: left !important;
+    align-items: left !important;
   }
 }
 @media only screen and(max-width: 950px) {
@@ -147,7 +147,7 @@ $spanBlue: #008cd5;
     text-align: left !important;
     padding: 10% 10% 5% 10% !important;
     .body__logo {
-      display: none!important;
+      display: none !important;
     }
   }
   .body__priceDisplay {
@@ -158,11 +158,11 @@ $spanBlue: #008cd5;
     }
   }
   .body__priceDisplayLogo {
-    padding: 2% 9%!important;
-    width: 5000%!important;
-    text-align: left!important;
-    justify-content: left!important;
-    align-items: left!important;
+    padding: 2% 9% !important;
+    width: 5000% !important;
+    text-align: left !important;
+    justify-content: left !important;
+    align-items: left !important;
   }
 }
 
@@ -187,14 +187,14 @@ $spanBlue: #008cd5;
   }
 }
 @media only screen and(max-width: 380px) {
-  .body{
-  .body__heading {
-    h1{
-      font-size: 2.5rem!important;
-    }
-    span {
-      font-size: 2.5rem!important;
-    }
+  .body {
+    .body__heading {
+      h1 {
+        font-size: 2.5rem !important;
+      }
+      span {
+        font-size: 2.5rem !important;
+      }
     }
   }
   .body__priceDisplay {

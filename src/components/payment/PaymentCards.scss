@@ -1,5 +1,5 @@
 .paymentCards {
-  height: 600px;
+  min-height: 600px;
   width: 350px;
   background: lavender;
   border-radius: 2px;
@@ -7,24 +7,79 @@
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 25px 1px rgba(0, 140, 213, 0.3);
+  .paymentCards__top {
+    height: 40%;
+    width: 100%;
+    .paymentCards__bar {
+      background: #000;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      h1 {
+        height: 40px;
+        font-size: 1.2rem;
+        color: #fff;
+        padding: 10px 0;
+      }
+    }
+    .paymentCards__price {
+      h1 {
+        padding: 20px 0;
+      }
+      small {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .paymentCards__bottom {
+    display: flex;
+    flex-direction: column;
+    .paymentCards__list {
+      margin-left: 10%;
+      h2 {
+        font-size: 1.2rem;
+        padding: 10px 0;
+      }
+      ul {
+        list-style: none;
+        li {
+          font-size: 1.6rem;
+          padding: 2px 0;
+          span {
+            color: blue;
+            font-size: 1.2rem;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    button {
+      height: 10%;
+    }
+  }
 }
-@media only screen and(max-width: 480px){
+@media only screen and(max-width: 480px) {
   .paymentCards {
     height: 550px;
     width: 300px;
   }
 }
-@media only screen and(max-width: 380px){
+@media only screen and(max-width: 380px) {
   .paymentCards {
     height: 500px;
     width: 250px;
   }
 }
-@media only screen and(max-width: 310px){
+@media only screen and(max-width: 310px) {
   .paymentCards {
     height: 460px;
     width: 210px;
   }
 }
-

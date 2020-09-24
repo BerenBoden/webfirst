@@ -18,12 +18,12 @@ const Div = styled.div`
 const Navigation = (props) => {
   return (
     <div className="header">
-        <Div>
-          <img src={banner2} alt="" />
-        </Div>
+      <Div>
+        <img src={banner2} alt="" />
+      </Div>
       <nav>
         <div className="nav__left">
-              <img className="header__logo" src={logo} alt="logo" />
+          <img className="header__logo" src={logo} alt="logo" />
         </div>
         <div className="nav__right">
           <Burger />

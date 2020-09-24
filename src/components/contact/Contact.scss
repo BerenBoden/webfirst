@@ -31,10 +31,10 @@ $spanBlue: #008cd5;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding: 0 10%;
+    padding: 0 20%;
     align-items: center;
     .contact__formRight {
-        margin-right: 20px;
+        margin-right: 10px;
         img {
             width: 500px;
             margin-left: 10px;
@@ -79,7 +79,7 @@ $spanBlue: #008cd5;
         
     }
     .contact__formLeft {
-        margin-left: 20px;
+        margin-left: 10px;
         .contact__form {
             height: 900px;
             padding: 40px;

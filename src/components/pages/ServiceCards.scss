@@ -1,32 +1,32 @@
 $spanBlue: rgb(0, 140, 213);
 .service__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  .service__cardsInner {
+    border-top: 4px solid $spanBlue;
+    box-shadow: 1px 1px 15px 1px rgba(0, 140, 213, 0.3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    .service__cardsInner{
-        border-top: 4px solid $spanBlue;
-        box-shadow: 1px 1px 15px 1px rgba(0, 140, 213, 0.3);
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        background: lavender;
-        width: 200px;
-        height: 250px;
-        padding: 40px;
-        svg{
-            width: 80px;
-        }
-        h1 {
-            font-size: 2rem;
-        }
-        p {
-            font-size:1.6rem;
-        }
+    flex-direction: column;
+    align-items: left;
+    background: lavender;
+    width: 200px;
+    height: 250px;
+    padding: 40px;
+    svg {
+      width: 80px;
     }
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
 }

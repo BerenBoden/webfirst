@@ -1,18 +1,18 @@
 $spanBlue: #008cd5;
 .portfolio {
   .portfolio__logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      p {
-        font-size: 1rem;
-        color: #000;
-      }
-      i {
-        font-size: 27px;
-        padding: 0 5px;
-      }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 1rem;
+      color: #000;
     }
+    i {
+      font-size: 27px;
+      padding: 0 5px;
+    }
+  }
   .button {
     background: $spanBlue;
     text-align: center;
@@ -42,7 +42,7 @@ $spanBlue: #008cd5;
   .portfolio__cards {
     display: flex;
     justify-content: center;
-    align-items: left;   
+    align-items: left;
     flex-wrap: wrap;
     .portfolio__card {
       padding: 20px;
@@ -56,17 +56,17 @@ $spanBlue: #008cd5;
     padding: 30px;
   }
 }
-@media only screen and(max-width: 615px){
+@media only screen and(max-width: 615px) {
   .portfolio__logo {
-    display: none!important;
+    display: none !important;
   }
 }
-@media only screen and(max-width: 380px){
+@media only screen and(max-width: 380px) {
   .portfolio {
     h1 {
-      font-size: 2.5rem!important;
+      font-size: 2.5rem !important;
       span {
-        font-size: 2.5rem!important;
+        font-size: 2.5rem !important;
       }
     }
   }

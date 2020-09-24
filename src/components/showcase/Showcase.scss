@@ -7,15 +7,15 @@
   #Layer-2 {
     animation: groupMoveUp 1s ease infinite alternate;
     -webkit-animation: groupMoveUp 1s ease infinite alternate;
-}
-  #top-left{
+  }
+  #top-left {
     animation: play 1s ease infinite alternate;
     -webkit-animation: play 1s ease infinite alternate;
   }
-  #middle-tv{
+  #middle-tv {
     animation: pic 1s ease infinite alternate;
     -webkit-animation: pic 1s ease infinite alternate;
-}
+  }
   #play-top-right {
     animation: play 1s ease-in-out infinite alternate;
     -webkit-animation: play 1s ease-in-out infinite alternate;
@@ -33,23 +33,23 @@
     animation: man-right 0.7s ease infinite alternate;
     -webkit-animation: man-right 0.7s ease infinite alternate;
     transform-origin: center;
-}
-@keyframes man-right {
-  from {
-    transform: rotateX(0deg);
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
   }
-  to {
-    transform: rotateX(-35deg);
-    -webkit-transform: rotateX(-35deg);
-    -moz-transform: rotateX(-35deg);
-    -ms-transform: rotateX(-35deg);
-    -o-transform: rotateX(-35deg);
-}
-}
+  @keyframes man-right {
+    from {
+      transform: rotateX(0deg);
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      -o-transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(-35deg);
+      -webkit-transform: rotateX(-35deg);
+      -moz-transform: rotateX(-35deg);
+      -ms-transform: rotateX(-35deg);
+      -o-transform: rotateX(-35deg);
+    }
+  }
   @keyframes man {
     from {
       transform: rotateX(0deg);
@@ -80,7 +80,7 @@
       -moz-transform: rotateY(-15deg);
       -ms-transform: rotateY(-15deg);
       -o-transform: rotateY(-15deg);
-  }
+    }
   }
   @keyframes play {
     from {
@@ -105,10 +105,10 @@
       -moz-transform: translateY(15px);
       -ms-transform: translateY(15px);
       -o-transform: translateY(15px);
-}
+    }
     0% {
-      transform: translateY(0px); 
-    } 
+      transform: translateY(0px);
+    }
   }
   .showcase__left {
     h1 {
@@ -239,7 +239,7 @@
       -moz-transition: 0.3s ease;
       -ms-transition: 0.3s ease;
       -o-transition: 0.3s ease;
-}
+    }
     @media only screen and(max-width: 1250px) {
       svg {
         width: 400px;
@@ -258,7 +258,7 @@
     }
   }
 }
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1080px) {
   .showcase {
     padding: 5% 13%;
   }
