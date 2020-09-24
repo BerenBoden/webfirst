@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 5% 13%;
+  padding: 5% 17%;
   #Layer-2 {
     animation: groupMoveUp 1s ease infinite alternate;
     -webkit-animation: groupMoveUp 1s ease infinite alternate;
@@ -258,18 +258,15 @@
     }
   }
 }
+@media only screen and (max-width: 1080px){
+  .showcase {
+    padding: 5% 13%;
+  }
+}
 @media only screen and(max-width: 950px) {
   .showcase {
     display: flex;
     flex-direction: column;
-    .showcase__left {
-      h1 {
-        color: #fff;
-        font-size: 4rem;
-        line-height: 100%;
-        text-decoration: underline;
-      }
-    }
     .showcase__right {
       svg {
         width: 250px;
@@ -293,14 +290,6 @@
   .showcase {
     display: flex;
     flex-direction: column;
-    .showcase__left {
-      h1 {
-        color: #fff;
-        font-size: 3.2rem;
-        line-height: 100%;
-        text-decoration: underline;
-      }
-    }
     .showcase__right {
       svg {
         width: 250px;

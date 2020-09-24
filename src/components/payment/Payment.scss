@@ -17,7 +17,6 @@ $spanBlue: #008cd5;
       text-transform: uppercase;
       font-size: 4rem;
       position: relative;
-      z-index: 100;
       text-align: center;
       display: block;
       padding: 70px 25% 20px 25%;
@@ -37,3 +36,18 @@ $spanBlue: #008cd5;
   }
 }
 
+@media only screen and(max-width: 615px){
+  .body__logo {
+    display: none!important;
+  }
+}
+@media only screen and(max-width: 380px){
+  .payment{
+    h1 {
+      font-size: 2.5rem!important;
+      span {
+        font-size: 2.5rem!important;
+      }
+    }
+  }
+}

@@ -66,20 +66,19 @@ const Body = () => {
         </div>
         <div className="body__priceDisplayText">
           <h1>
-            <span>$0</span> Down, <span>Fixed</span> Price Per Month
+            <span>Free</span> For The First <span>30 Days!</span>
           </h1>
           <p>
-            $0 for the first 30 days for a standard 5 page small business
-            website. If you don't like it, you can cancel anytime between those
-            30 days.
+            $0 for the first 30 days on any plan you choose to go for, If you don't like the website, you can cancel anytime between those
+            30 days, no hassle, no fees.
             <br />
             <br />
-            After 30 days, you will be charged a fixed price per month based on
+            After 30 days, you will be charged a fixed price per month or a one time fixed price based on
             your budget and the amount of work needed.
             <br />
             <br />
             You own your domain, content, listing, and profiles. Cancel anytime,
-            free of charge, and no hassle.
+            free of charge, no hassle.
           </p>
         </div>
       </div>
@@ -125,7 +124,7 @@ const Body = () => {
         </div>
         <div className="body__priceDisplayLogo">
           <h2>
-            &nbsp;&nbsp;Google Analytics
+          <i className="fa fa-check-circle"></i>&nbsp;&nbsp;Google Analytics
           </h2>
           <p>
             We install Analytics for free so you can monitor your traffic and

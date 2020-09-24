@@ -2,18 +2,19 @@ import React from "react";
 import logo from "../../img/logo.png";
 import "./Header.scss";
 import Burger from "./Burger";
-import banner2 from "../../img/banner-bg-2.png";
+import banner2 from "../../img/header-bg-1.png";
 import styled from "styled-components";
 
 const Div = styled.div`
   img {
-    position: absolute;
     width: 100%;
-    height: 150px;
+    position: absolute;
+    z-index: -1;
+    height: 220px;
   }
 `;
 
-const Navigation = () => {
+const Navigation = (props) => {
   return (
     <div className="header">
         <Div>

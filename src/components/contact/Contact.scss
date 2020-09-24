@@ -2,7 +2,6 @@ $spanBlue: #008cd5;
 
 .body__heading__contact {
     position: relative;
-    z-index: 100;
     text-align: center;
     display: block;
     padding-top: 40px;
@@ -177,10 +176,11 @@ $spanBlue: #008cd5;
                 margin: 40px 0 0 0;
             }
             .contact__options {
-                margin-bottom: 0;
+                margin: 0;
             }
         }
         .contact__formLeft {
+            padding: 0;
             margin: 0;
         }
     }
@@ -301,3 +301,13 @@ $spanBlue: #008cd5;
 }
 }
 }
+@media only screen and(max-width: 380px){
+    .body__heading__contact{
+      h1 {
+        font-size: 2.5rem!important;
+        span {
+          font-size: 2.5rem!important;
+        }
+      }
+    }
+  }

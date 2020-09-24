@@ -1,0 +1,25 @@
+$spanBlue: #008cd5;
+.service__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    .service__cardsInner{
+        border-top: 4px solid $spanBlue;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background: lavender;
+        width: 200px;
+        height: 250px;
+        padding: 40px;
+        svg{
+            width: 80px;
+        }
+    }
+}
